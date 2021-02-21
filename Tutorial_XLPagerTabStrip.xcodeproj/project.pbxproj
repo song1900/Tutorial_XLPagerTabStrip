@@ -3,27 +3,33 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		19765567FB4326805D500889 /* Pods_Tutorial_XLPagerTabStrip.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 66060F52B60C181C7A050AC6 /* Pods_Tutorial_XLPagerTabStrip.framework */; };
 		F69C3B5925E2BEF10083D9C4 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F69C3B5825E2BEF10083D9C4 /* AppDelegate.swift */; };
 		F69C3B5B25E2BEF10083D9C4 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F69C3B5A25E2BEF10083D9C4 /* SceneDelegate.swift */; };
 		F69C3B5D25E2BEF10083D9C4 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F69C3B5C25E2BEF10083D9C4 /* ViewController.swift */; };
-		F69C3B6025E2BEF10083D9C4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F69C3B5E25E2BEF10083D9C4 /* Main.storyboard */; };
 		F69C3B6225E2BEF30083D9C4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F69C3B6125E2BEF30083D9C4 /* Assets.xcassets */; };
 		F69C3B6525E2BEF30083D9C4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F69C3B6325E2BEF30083D9C4 /* LaunchScreen.storyboard */; };
+		F69C3B7325E2C14A0083D9C4 /* ChildViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F69C3B7225E2C14A0083D9C4 /* ChildViewController.swift */; };
+		F69C3B7B25E2C8DB0083D9C4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F69C3B7A25E2C8DB0083D9C4 /* Main.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		434B932D84A9EA899A7B1967 /* Pods-Tutorial_XLPagerTabStrip.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Tutorial_XLPagerTabStrip.release.xcconfig"; path = "Target Support Files/Pods-Tutorial_XLPagerTabStrip/Pods-Tutorial_XLPagerTabStrip.release.xcconfig"; sourceTree = "<group>"; };
+		66060F52B60C181C7A050AC6 /* Pods_Tutorial_XLPagerTabStrip.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Tutorial_XLPagerTabStrip.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		9009CCA36CE0DB95048B1FB5 /* Pods-Tutorial_XLPagerTabStrip.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Tutorial_XLPagerTabStrip.debug.xcconfig"; path = "Target Support Files/Pods-Tutorial_XLPagerTabStrip/Pods-Tutorial_XLPagerTabStrip.debug.xcconfig"; sourceTree = "<group>"; };
 		F69C3B5525E2BEF10083D9C4 /* Tutorial_XLPagerTabStrip.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Tutorial_XLPagerTabStrip.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F69C3B5825E2BEF10083D9C4 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		F69C3B5A25E2BEF10083D9C4 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		F69C3B5C25E2BEF10083D9C4 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		F69C3B5F25E2BEF10083D9C4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		F69C3B6125E2BEF30083D9C4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F69C3B6425E2BEF30083D9C4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		F69C3B6625E2BEF30083D9C4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F69C3B7225E2C14A0083D9C4 /* ChildViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChildViewController.swift; sourceTree = "<group>"; };
+		F69C3B7A25E2C8DB0083D9C4 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,17 +37,37 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				19765567FB4326805D500889 /* Pods_Tutorial_XLPagerTabStrip.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		5BDE2224676802F8988E40C4 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				9009CCA36CE0DB95048B1FB5 /* Pods-Tutorial_XLPagerTabStrip.debug.xcconfig */,
+				434B932D84A9EA899A7B1967 /* Pods-Tutorial_XLPagerTabStrip.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		7BE477B6B7504443E1E1A45E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				66060F52B60C181C7A050AC6 /* Pods_Tutorial_XLPagerTabStrip.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		F69C3B4C25E2BEF10083D9C4 = {
 			isa = PBXGroup;
 			children = (
 				F69C3B5725E2BEF10083D9C4 /* Tutorial_XLPagerTabStrip */,
 				F69C3B5625E2BEF10083D9C4 /* Products */,
+				5BDE2224676802F8988E40C4 /* Pods */,
+				7BE477B6B7504443E1E1A45E /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -56,10 +82,11 @@
 		F69C3B5725E2BEF10083D9C4 /* Tutorial_XLPagerTabStrip */ = {
 			isa = PBXGroup;
 			children = (
+				F69C3B7A25E2C8DB0083D9C4 /* Main.storyboard */,
 				F69C3B5825E2BEF10083D9C4 /* AppDelegate.swift */,
 				F69C3B5A25E2BEF10083D9C4 /* SceneDelegate.swift */,
 				F69C3B5C25E2BEF10083D9C4 /* ViewController.swift */,
-				F69C3B5E25E2BEF10083D9C4 /* Main.storyboard */,
+				F69C3B7225E2C14A0083D9C4 /* ChildViewController.swift */,
 				F69C3B6125E2BEF30083D9C4 /* Assets.xcassets */,
 				F69C3B6325E2BEF30083D9C4 /* LaunchScreen.storyboard */,
 				F69C3B6625E2BEF30083D9C4 /* Info.plist */,
@@ -74,9 +101,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = F69C3B6925E2BEF30083D9C4 /* Build configuration list for PBXNativeTarget "Tutorial_XLPagerTabStrip" */;
 			buildPhases = (
+				DA1E5D5D2ADC67F08F34CB24 /* [CP] Check Pods Manifest.lock */,
 				F69C3B5125E2BEF10083D9C4 /* Sources */,
 				F69C3B5225E2BEF10083D9C4 /* Frameworks */,
 				F69C3B5325E2BEF10083D9C4 /* Resources */,
+				6F33B7489E0A2AE1008FEEDB /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -124,13 +153,55 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F69C3B7B25E2C8DB0083D9C4 /* Main.storyboard in Resources */,
 				F69C3B6525E2BEF30083D9C4 /* LaunchScreen.storyboard in Resources */,
 				F69C3B6225E2BEF30083D9C4 /* Assets.xcassets in Resources */,
-				F69C3B6025E2BEF10083D9C4 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		6F33B7489E0A2AE1008FEEDB /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Tutorial_XLPagerTabStrip/Pods-Tutorial_XLPagerTabStrip-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Tutorial_XLPagerTabStrip/Pods-Tutorial_XLPagerTabStrip-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Tutorial_XLPagerTabStrip/Pods-Tutorial_XLPagerTabStrip-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		DA1E5D5D2ADC67F08F34CB24 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Tutorial_XLPagerTabStrip-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		F69C3B5125E2BEF10083D9C4 /* Sources */ = {
@@ -139,6 +210,7 @@
 			files = (
 				F69C3B5D25E2BEF10083D9C4 /* ViewController.swift in Sources */,
 				F69C3B5925E2BEF10083D9C4 /* AppDelegate.swift in Sources */,
+				F69C3B7325E2C14A0083D9C4 /* ChildViewController.swift in Sources */,
 				F69C3B5B25E2BEF10083D9C4 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -146,14 +218,6 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		F69C3B5E25E2BEF10083D9C4 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				F69C3B5F25E2BEF10083D9C4 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		F69C3B6325E2BEF30083D9C4 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -283,6 +347,7 @@
 		};
 		F69C3B6A25E2BEF30083D9C4 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9009CCA36CE0DB95048B1FB5 /* Pods-Tutorial_XLPagerTabStrip.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -302,6 +367,7 @@
 		};
 		F69C3B6B25E2BEF30083D9C4 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 434B932D84A9EA899A7B1967 /* Pods-Tutorial_XLPagerTabStrip.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
